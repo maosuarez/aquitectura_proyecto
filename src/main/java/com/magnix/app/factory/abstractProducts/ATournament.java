@@ -95,14 +95,6 @@ public abstract class ATournament extends ObservableOwn{
         setState(State.CONFIRMED);
     }
 
-    public void cancelBooking(){
-        setState(State.CANCELLED);
-    };
-
-    public void completedBooking(){
-        setState(State.COMPLETED);
-    }
-
     // Métodos abstractos: los concretos los implementan
     public abstract void closeRegistration();
     public abstract void openRegistration();

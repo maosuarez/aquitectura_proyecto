@@ -17,7 +17,6 @@ import com.magnix.app.factory.Team;
 import com.magnix.app.factory.concreteFactories.*;
 import com.magnix.app.factory.abstractProducts.ABooking;
 import com.magnix.app.factory.abstractProducts.ATournament;
-// import com.magnix.app.bridge.IPost;
 import com.magnix.app.singleton.Sport;
 
 
@@ -29,7 +28,6 @@ public class Club {
     private ListSports listSport;
     private ArrayList<ABooking> listBooking = new ArrayList<>();
     private ArrayList<ATournament> listTournament = new ArrayList<>();
-    // private ArrayList<IPost> feedCommunity = new ArrayList<>();
 
     private FactorySport factorySport;
 

@@ -63,7 +63,6 @@ public class Bracket {
         return structureName;
     }
 
-
     // Generar matches con JOptionPane
     public void generateMatches(ArrayList<Team> teams) {
         if (teams == null || teams.size() < 2) {
