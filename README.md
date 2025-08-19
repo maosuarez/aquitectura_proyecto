@@ -35,19 +35,22 @@ Este proyecto se desarrolló siguiendo principios sólidos de ingeniería de sof
 ## 3. 🧱 Diseño de Software
 
 ### 🔹 Principios SOLID
- - FALTA
+ - SRP: Cada Clase tiene su unica funcion
+ - OCP: Se pueden agregar cuantos tipos de deporte se desee con la implementacion de extensiones
+ - LSP: Liskov por la posibilidad de reemplazar las instanciaciones sin romper el sistema
 
 ### 🔹 Patrones de diseño aplicados
 
 | Patrón        | Propósito                          | Ubicación en el código |
 |---------------|------------------------------------|-------------------------|
-| Bridge        | Separar abstracción de implementación   | `falta` |
-| Factory       | Creación flexible de objetos       | `falta`  |
-| Observer      | Actualización reactiva de datos    | `falta`   |
+| Bridge        | Separar abstracción de implementación   | Capeta tituada bridge (Cambio de tema claro o oscuroen comunity) |
+| Factory       | Creación flexible de objetos       | Carpeta factory (Creacion del reservador y creador de torneo para cada uno de los deportes) |
+| Observer      | Actualización reactiva de datos    | Carpeta con el titulo de observer (Notificar a un jugador en el procedimiento de reserva e inscripcion a torneos y reservas)   |
+| Singleton     | Instancia unica en todo el codigo  | Carpeta con nombre singleton (Tener una lista unica de deportes) |
 
 ### 🔹 Diagramas UML 
 
-> Ver carpeta `/docs/UML/` para los archivos `.png` y `.drawio`.
+> Ver carpeta `/docs/UML/` para los archivos `.png` y `.astah`.
 
 ---
 
@@ -60,8 +63,6 @@ Este proyecto se desarrolló siguiendo principios sólidos de ingeniería de sof
 
 ### 🔗 Enlaces explicativos
 
-`FALTA`
-
 - [Explicación de la arquitectura](docs/arquitectura.md)
 - [Guía de instalación y ejecución](docs/instalacion.md)
 - [Manual de usuario](docs/manual_usuario.md)
@@ -72,7 +73,7 @@ Este proyecto se desarrolló siguiendo principios sólidos de ingeniería de sof
 
 ### 🔸 Cohesión
 
-Alta cohesión en módulos funcionales (e.g., `controllers` y `services` separados por dominio).
+Alta cohesión en módulos funcionales.
 
 ### 🔸 Acoplamiento
 
@@ -83,9 +84,7 @@ Bajo acoplamiento gracias al uso de interfaces y patrones.
 | Atributo        | Evaluación | Justificación |
 |-----------------|------------|----------------|
 | Mantenibilidad  | Alta       | Código modular y bien documentado |
-| Escalabilidad   | Media      | Arquitectura preparada para microservicios |
-| Rendimiento     | Alta       | Optimización en consultas y procesamiento |
-| Seguridad       | Media      | Autenticación básica implementada |
+| Escalabilidad   | Media      | Arquitectura preparada para microservicios, cambio de Joptions por nuevas tecnologias |
 
 ---
 
