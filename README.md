@@ -63,9 +63,9 @@ Este proyecto se desarrolló siguiendo principios sólidos de ingeniería de sof
 
 ### 🔗 Enlaces explicativos
 
-- [Explicación de la arquitectura](docs/arquitectura.md)
-- [Guía de instalación y ejecución](docs/instalacion.md)
-- [Manual de usuario](docs/manual_usuario.md)
+- [Explicación de la arquitectura](src/docs/arquitectura.md)
+- [Guía de instalación y ejecución](src/docs/instalacion.md)
+- [Manual de usuario](src/docs/manual_usuario.md)
 
 ---
 
